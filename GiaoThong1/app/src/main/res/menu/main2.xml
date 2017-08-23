@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_zoom1"
+        android:orderInCategory="100"
+        android:icon="@drawable/zoom1"
+        android:title="Zoom+"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_zoom2"
+        android:orderInCategory="100"
+        android:icon="@drawable/zoom2"
+        android:title="Zoom-"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/dem"
+        android:orderInCategory="100"
+        android:title="Chế độ đêm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/demoff"
+        android:orderInCategory="100"
+        android:title="Thoát chế độ đêm"
+        app:showAsAction="never" />
+
+</menu>

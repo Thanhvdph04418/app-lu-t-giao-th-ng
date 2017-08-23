@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Home" />
+        <item
+            android:id="@+id/navtt"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Thông Tư" />
+
+        <item
+            android:id="@+id/nav_a1"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Biển báo và Biển cấm" />
+
+        <item
+            android:id="@+id/nav_a2"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Video Thi bằng xe máy" />
+        <item
+            android:id="@+id/nav_b1"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Ôn thi bằng lái A1" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_About"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
